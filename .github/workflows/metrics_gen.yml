@@ -10,7 +10,7 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: zixuanweeei/gh-profile-metrics@master
         with:
           # Your GitHub token
           # The following scopes are required:
@@ -20,7 +20,7 @@ jobs:
           #  - read:user     (for user related data)
           #  - read:packages (for some packages related data)
           #  - repo          (optional, if you want to include private repositories)
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS }}
 
           # Options
           user: zixuanweeei
