@@ -10,7 +10,7 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: zixuanweeei/gh-profile-metrics@master
+      - uses: zixuanweeei/gh-profile-metrics@latest
         with:
           # Your GitHub token
           # The following scopes are required:
