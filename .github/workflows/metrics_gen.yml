@@ -21,7 +21,7 @@ jobs:
           #  - read:packages (for some packages related data)
           #  - repo          (optional, if you want to include private repositories)
           token: ${{ secrets.METRICS_TOKEN }}
-          committer_message: "chore: update metrics"
+          committer_message: "chore: update metrics [Skip GitHub Action]"
 
           # Options
           user: zixuanweeei
